@@ -55,6 +55,21 @@ h6 {
   }
 }
 
+div.update-notice {
+  margin: 0px;
+  padding: 0px;
+  background-color: transparent;
+  background-image: linear-gradient(60deg, #ffffff 30%, rgb(32 101 229 / 90%) 80%);
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+}
+
+div.update-notice div p.title {
+  margin: 0px 0px 0px 0px;
+  padding: 5px 4px 10px 5px;
+  background-color: #7c0004;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
