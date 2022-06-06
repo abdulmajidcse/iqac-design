@@ -404,10 +404,10 @@ div.update-notice div p.title {
   background-position: center;
   background-repeat: no-repeat;
 }
-#hero .carousel-item::before {
+/* #hero .carousel-item::before {
   content: "";
   background-color: rgba(0, 0, 0, 0.4);
-}
+} */
 #hero .carousel-container {
   display: flex;
   justify-content: center;
