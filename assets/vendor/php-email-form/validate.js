@@ -14,6 +14,15 @@
 
       let thisForm = this;
 
+      // only for demo purpose
+      thisForm.querySelector('.loading').classList.add('d-block');
+      thisForm.querySelector('.sent-message').classList.remove('d-block');
+      thisForm.querySelector('.error-message').classList.remove('d-block');
+      thisForm.querySelector('.sent-message').classList.add('d-block');
+      thisForm.querySelector('.loading').classList.remove('d-block');
+      return true;
+      // end of demo purpose
+
       let action = thisForm.getAttribute('action');
       let recaptcha = thisForm.getAttribute('data-recaptcha-site-key');
       
